@@ -1,0 +1,252 @@
+.cooperative-page {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Left section with category image and info */
+  .left-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* General styles for category-like sections */
+/* Left section that contains both the image and info sections */
+.left-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  width: 100%; /* Ensure it takes up the full width of its container */
+  max-width: 350px; /* Adjust based on your design */
+  margin: 0 auto; /* Center the section */
+}
+
+/* Section for the image */
+.section-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.section-label {
+  background-color: #8DBE3D;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.image-placeholder {
+  width: 200px;
+  height: 260px;
+  background-color: #C5A186;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  
+}
+
+/* Info section below the image */
+.info-section {
+  border: 1px solid black; /* Black border around the container */
+  padding: 20px; /* Padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  width: 75%; /* Ensure full width */
+  background-color: #fff; /* White background */
+  margin-top: 20px; /* Add space between the image section and the info section */
+  text-align: left; /* Align content to the left */
+}
+
+/* Styling for h3 inside the info-section */
+.info-section h3 {
+  font-size: 16px; /* Increase font size for emphasis */
+  font-weight: 600; /* Semi-bold for a clean, professional look */
+  text-align: center; /* Center the text */
+  color: #6B4E26; /* Brown color to match the overall theme */
+  margin-bottom: 20px; /* Add space below the heading */
+  letter-spacing: 0.5px; /* Slight letter spacing for readability */
+  text-transform: uppercase; /* Make the text uppercase for emphasis */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-bottom: 1px solid #6B4E26; /* Add a bottom border for style */
+  padding-bottom: 10px;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.info-section ul li {
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+  margin-bottom: 15px; /* Space between items */
+  font-size: 16px; /* Text size */
+  padding: 10px;
+}
+
+.info-section ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark text color */
+  padding-left: 10px;
+}
+
+.info-section ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Icon styles for the info section */
+.info-section ul li svg {
+  margin-right: 10px; /* Space between icon and text */
+  color: #6B4E26; /* Icon color (brown tone) */
+  font-size: 24px; /* Icon size */
+}
+
+/* Social media section */
+.social-media {
+  display: flex;
+  flex-direction: column; /* Stack social icons vertically */
+  gap: 15px; /* Space between icons */
+}
+
+.social-media li {
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+}
+
+.social-media li svg {
+  margin-right: 10px;
+  font-size: 30px; /* Social icon size */
+  color: #0077b5; /* Default icon color */
+}
+
+/* For different social media icons */
+.social-media li:nth-child(1) svg {
+  color: #3b5998; /* Facebook color */
+}
+
+.social-media li:nth-child(2) svg {
+  color: #E1306C; /* Instagram color */
+}
+
+.social-media li:nth-child(3) svg {
+  color: #1DA1F2; /* Twitter color */
+}
+
+.social-media li:nth-child(4) svg {
+  color: #0077b5; /* LinkedIn color */
+}
+
+  /* Right section with presentation, products and materials */
+  .right-section {
+    width: 70%;
+  }
+  
+  .presentation {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .products, .materials {
+    margin-bottom: 20px;
+  }
+  
+  .product-list, .materials-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .product-card, .material-card {
+    width: 150px;
+    height: 200px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .product-image-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #bbb;
+  }
+  
+  .material-card {
+    width: 150px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  /* Form section */
+.form-section {
+  padding-bottom: 200px;;
+  background-color: #fafafa;
+  padding: 30px;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form-section h3 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #8DBE3D;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 100px;
+}
+
+.submit-button:hover {
+  background-color: #6b8c2d; /* Darker green on hover */
+}

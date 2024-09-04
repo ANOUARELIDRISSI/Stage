@@ -1,0 +1,93 @@
+.header {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo-container {
+  margin :20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.brand-name {
+  margin-left: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-button svg {
+  color: #555;
+}
+
+.icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease; 
+}
+
+.icon:hover {
+  color: #ffa202; 
+}
+
+.nav-container {
+  background-color: #486617;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.nav-list li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav-list:hover {
+  color: #ffa202; 
+}
