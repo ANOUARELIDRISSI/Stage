@@ -1,15 +1,13 @@
-
-
 import React from 'react';
 
-import ListeDeCompagnies from './components/ListeLivraison';
+import ListeDeCompagnies from './AI/chatbot';
 import Header from './components/Header'
-
+import Sidebar from './components/Sidebar'
 function App() {
   return (
     <div>
       <Header />
-    
+      <Sidebar />
       <ListeDeCompagnies />
     </div>
   );

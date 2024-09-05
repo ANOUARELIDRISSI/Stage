@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
 import { FaSearch, FaUser, FaShoppingCart, FaHeart, FaGlobe } from 'react-icons/fa';
-
+import logo from './logo.png';
 const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
           <img
-            src="./logo.png"
+            src={logo}
             alt="Authentic Maroc Logo"
             className="logo"
           />
